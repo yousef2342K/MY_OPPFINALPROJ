@@ -1,0 +1,21 @@
+
+Composition Instances:
+
+Login, Creation, BalanceInquiry, AccountDetails, Transaction, BankStatement, Deletion instances are created within the methods (loginAcc, createAcc, etc.) of the Main class.
+
+
+Object-Oriented Principles Applied:
+Encapsulation: Methods like loginAcc, createAcc, and others encapsulate functionality related to specific actions (login, account creation, etc.).
+Abstraction: Methods like menu, balInquiry, accDetails, etc., abstract the internal logic and functionality related to specific actions.
+Polymorphism: Utilizes switch-case statements to handle different options in the menu
+ method, allowing different methods to be called based on user input.
+
+
+The Login, Creation, BalanceInquiry, AccountDetails, Transaction, BankStatement, and Deletion instances created in Main might be considered as part of Main, but they might exist on their own as well. If they're created and utilized within the context of Main but could also be used elsewhere independently, that could be a form of aggregation.
+--------------------------------------------------------------------------------
+
+
+
+
+
+
